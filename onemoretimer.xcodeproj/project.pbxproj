@@ -16,6 +16,7 @@
 		49E17E8A25E5F848000F9AD9 /* EMOMCommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E17E8925E5F848000F9AD9 /* EMOMCommentViewController.swift */; };
 		49E17E8D25E5F857000F9AD9 /* EMOMProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E17E8C25E5F857000F9AD9 /* EMOMProgressBar.swift */; };
 		49E17E9025E5F99A000F9AD9 /* infinity.png in Resources */ = {isa = PBXBuildFile; fileRef = 49E17E8F25E5F99A000F9AD9 /* infinity.png */; };
+		6A9A3472D92B6772AF3C6D57 /* Pods_onemoretimer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C044110592963A5587D78AA /* Pods_onemoretimer.framework */; };
 		759EC61F25E53C65007E1BA3 /* ForTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759EC61E25E53C65007E1BA3 /* ForTimeViewController.swift */; };
 		759EC62525E5458F007E1BA3 /* ForTimeProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759EC62425E5458F007E1BA3 /* ForTimeProgressBar.swift */; };
 		759EC62C25E54DAE007E1BA3 /* ForTimeTimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759EC62B25E54DAE007E1BA3 /* ForTimeTimerViewController.swift */; };
@@ -99,6 +100,7 @@
 		759EC61E25E53C65007E1BA3 /* ForTimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ForTimeViewController.swift; path = onemoretimer/ForTime/ForTimeViewController.swift; sourceTree = SOURCE_ROOT; };
 		759EC62425E5458F007E1BA3 /* ForTimeProgressBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForTimeProgressBar.swift; sourceTree = "<group>"; };
 		759EC62B25E54DAE007E1BA3 /* ForTimeTimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ForTimeTimerViewController.swift; path = onemoretimer/ForTime/ForTimeTimerViewController.swift; sourceTree = SOURCE_ROOT; };
+		7C044110592963A5587D78AA /* Pods_onemoretimer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_onemoretimer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C1539F025ECE98B00F9C167 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Main.strings; sourceTree = "<group>"; };
 		7C1539F125ECE98B00F9C167 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		7C1FD33B25E7A6EF0043055C /* ForTimeCommentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ForTimeCommentViewController.swift; path = onemoretimer/ForTime/ForTimeCommentViewController.swift; sourceTree = SOURCE_ROOT; };
@@ -120,7 +122,7 @@
 		7C65D47F25E785DB00653978 /* TenSecondLeft.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = TenSecondLeft.mp3; sourceTree = "<group>"; };
 		7C68387125EA4DBA00BABF97 /* buttonWorkOutLog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonWorkOutLog.png; sourceTree = "<group>"; };
 		7C69AA3B25EF58460004F3B1 /* RestWorkOut.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = RestWorkOut.mp3; sourceTree = "<group>"; };
-		7C6AC0B725EC87EF00D1384A /* TimerImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TimerImage.png; path = ../../../Resources/TimerImage.png; sourceTree = "<group>"; };
+		7C6AC0B725EC87EF00D1384A /* TimerImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TimerImage.png; sourceTree = "<group>"; };
 		7C6AC0C225EC88BE00D1384A /* buttonRemove.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonRemove.png; sourceTree = "<group>"; };
 		7C98139025E4130B001F06F6 /* onemoretimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = onemoretimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C98139325E4130B001F06F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -160,6 +162,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A9A3472D92B6772AF3C6D57 /* Pods_onemoretimer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,6 +349,7 @@
 		F21A0C008125BFD693987B8E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7C044110592963A5587D78AA /* Pods_onemoretimer.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
